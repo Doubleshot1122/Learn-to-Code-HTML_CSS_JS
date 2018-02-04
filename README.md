@@ -88,4 +88,5 @@ Click on each of the links below to learn about:
 ***
 
 Thanks for attending and please come back for the JavaScript class in 2 weeks.
+
 [Finished version of this site](http://the-last-jedi.surge.sh/)
