@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html> <!-- Tells the browser that this is a webpage -->
   <head>
-    <title>INSERT</title> <!-- sets the name of the tab -->
-    <!-- the link element connects our CSS file to this site -->
-    <link rel="stylesheet" href="main.css">
+    <title>The Last Jedi</title> <!-- sets the name of the tab -->
+    <link rel="stylesheet" href="css/main.css"> <!-- links the CSS page to our site -->
+    <link id ="style2" rel="stylesheet" href="css/darkside.css"> <!-- secondary CSS -->
+    <script src="main.js"></script> <!-- links the JS page to our site -->
   </head>
   <body>
-    <aside class="left"> <!-- left side of site start -->
+    <aside class="left">
       <h1><u>Movie Details:</u></h1>
       <ul class="movieDetails">
-        <li><b>Director: </b><a href="#" target="_blank">INSERT</a></li>
-        <li><b>Release date: </b>INSERT</li>
-        <li><b>Running time: </b>INSERT</li>
-        <li><b>Budget:	</b>INSERT</li>
-        <li><b>Box office:	</b>INSERT</li>
+        <li><span>Director: </span><a href="https://en.wikipedia.org/wiki/Rian_Johnson" target="_blank">Rian Johnson</a></li>
+        <li><span>Release date: </span>December 2017</li>
+        <li><span>Running time: </span>152 minutes</li>
+        <li><span>Budget:	</span>$200 million </li>
+        <li><span>Box office:	</span>$1.314 billion</li>
     </ul>
     <br>
     <h1><u>External Links:</u></h1>
     <ul class="otherLinks">
-      <li><a target="_blank" href="#">IMDB</a></li>
-      <li><a target="_blank" href="#">Wikipedia</a></li>
-      <li><a target="_blank" href="#">Rotten Tomatoes</a></li>
+      <li><a target="_blank" href="http://www.imdb.com/title/tt2527336/">IMDB</a></li>
+      <li><a target="_blank" href="https://en.wikipedia.org/wiki/Star_Wars:_The_Last_Jedi">Wikipedia</a></li>
+      <li><a target="_blank" href="https://www.rottentomatoes.com/m/star_wars_the_last_jedi/">Rotten Tomatoes</a></li>
     </ul>
     <br>
     <br>
@@ -29,55 +30,70 @@
       <li><a href="#trailer">Trailer</a></li>
       <li><a href="#pictures">Pictures</a></li>
     </ul>
-  </aside> <!-- left side of site ends -->
-      <div class="center"> <!-- center of site starts -->
-        <img id="poster" src="http://via.placeholder.com/800x800" alt="">
-        <h1 id="title-box">Movie Title</h1>
+    </aside>
+      <div class="center">
+        <img id="poster" src="https://lumiere-a.akamaihd.net/v1/images/the-last-jedi-theatrical-poster-film-page_bca06283.jpeg?region=0%2C0%2C480%2C711" alt="">
+        <h1 class="title-name">Star Wars: <br> The Last Jedi</h1>
         <br>
         <br>
-        <!-- button is inside of the 'a' tag so that it can look like
-             a button but act like a link -->
-        <a href="#"><button>TOP</button></a>
+        <a href="#"><button class="home-button">TOP</button></a>
         <br>
         <br>
-        <!-- replace the below iframe with the iframe from youtube
-              1. find a video
-              2. click on share
-              3. click on EMBED
-              4. click on COPY
-              5. replace iframe tags with copied link
-        -->
-        <iframe></iframe>
+        <iframe id="trailer" src="https://www.youtube.com/embed/Q0CbN8sfihY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br>
         <br>
-        <!-- button is inside of the 'a' tag so that it can look like
-             a button but act like a link -->
-        <a href="#"><button>TOP</button></a>
+        <a href="#"><button class="home-button">TOP</button></a>
         <br>
         <br>
-        <table> <!-- sets up the picture table -->
-                <!-- starts the first row, to make more rows copy and
-                    past from <tr> to </tr> and update the src for each new picture -->
-           <tr>
-              <td> <!-- starts the first cell -->
-                <img class="movie-scenes" src="http://via.placeholder.com/200x200" alt="">
+        <table id="pictures">
+          <tr>
+              <td>
+                <img class="movie-scenes" src="https://i.kinja-img.com/gawker-media/image/upload/s--Uz736No6--/c_fill,fl_progressive,g_north,h_264,q_80,w_470/drqe3qlamxie4khyatls.jpg" alt="">
               </td>
-              <td> <!-- starts the second cell -->
-                <img class="movie-scenes" src="http://via.placeholder.com/200x200" alt="">
+              <td>
+                <img class="movie-scenes" src="https://img.cinemablend.com/filter:scale/quill/5/9/f/9/c/f/59f9cfb9554832934c5e99f9a081f1201c1eeb0f.jpg?mw=600" alt="">
               </td>
-              <td> <!-- starts the third cell -->
-                <img class="movie-scenes" src="http://via.placeholder.com/200x200" alt="">
+              <td>
+                <img class="movie-scenes" src="https://nerdist.com/wp-content/uploads/2017/10/kylo-ren-the-last-jedi.jpg" alt="">
               </td>
-              <td> <!-- starts the forth cell -->
-                <img class="movie-scenes" src="http://via.placeholder.com/200x200" alt="">
+              <td>
+                <img class="movie-scenes" src="https://theplaylist.net/wp-content/uploads/2017/08/last-jedi-2-1200x520.jpg" alt="">
+              </td>
+          </tr>
+          <tr>
+              <td>
+                <img class="movie-scenes" src="http://digitalspyuk.cdnds.net/17/15/980x490/landscape-1492194967-finn-last-jedi-trailer.jpg" alt="">
+              </td>
+              <td>
+                <img class="movie-scenes" src="https://typeset-beta.imgix.net/uploads/image/2017/12/14/23c5c1a1-30b2-442e-b77a-c1c109c898b7-leia-tlj.jpg" alt="">
+              </td>
+              <td>
+                <img class="movie-scenes" src="http://cdn1us.denofgeek.com/sites/denofgeekus/files/2017/11/star-wars-rey-daisy-ridley.jpg" alt="">
+              </td>
+              <td>
+                <img class="movie-scenes" src="https://www.gannett-cdn.com/-mm-/2516554966cde7c9afefe65bfc2c180c19f08786/c=226-0-3773-2667&r=x404&c=534x401/local/-/media/2017/12/14/USATODAY/USATODAY/636488137722287026-hux.jpg">
+              </td>
+          </tr>
+          <tr>
+              <td>
+                <img class="movie-scenes" src="https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2017/12/18/15/bb8-last-jedi.jpg" alt="">
+              </td>
+              <td>
+                <img class="movie-scenes" src="https://pixel.nymag.com/imgs/daily/vulture/2017/08/31/31-bb-9e-star-wars.w190.h190.jpg" alt="">
+              </td>
+              <td>
+                <img class="movie-scenes" src="https://cdn.movieweb.com/img.news.tops/NEfIoZwYS8wQjm_2_b/Star-Wars-Last-Jedi-Captain-Phasma-Secret-Weapon.jpg" alt="">
+              </td>
+              <td>
+                <img class="movie-scenes" src="http://cdn.wegotthiscovered.com/wp-content/uploads/2017/09/NElGM29MONGipm_1_1.jpg" alt="">
               </td>
           </tr>
         </table>
-      </div> <!-- center of site ends -->
-      <aside class="right"> <!-- right side of site starts -->
-        <h1><u>Right Side</u></h1>
-        <button>Button1</button>
-        <button>Button2</button>
-      </aside> <!-- right side of site ends -->
+      </div>
+      <aside class="right">
+        <h1><u>Settings Toggle:</u></h1>
+        <button onclick="switchCSS('light')" class="right-button light-btn">Light</button>
+        <button onclick="switchCSS('dark')" class="right-button dark-btn">Dark</button>
+      </aside>
   </body> <!--body -->
 </html> <!--html -->

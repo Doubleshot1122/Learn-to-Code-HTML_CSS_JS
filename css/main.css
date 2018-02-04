@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+aside {
+  align-items: center;
+  text-align: center;
+  float: left;
+  width: 20%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.movieDetails {
+  list-style-type: none;
+}
+
+.otherLinks {
+  margin-left: 20px;
+}
+
+.left li {
+  text-align: left;
+  font-size: 18px;
+}
+
+.left li span {
+  font-weight: bold;
+}
+
+.center{
+  align-items: center;
+  float: left;
+  width: 60%;
+  height: 100%;
+  text-align: center;
+}
+
+#poster {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  opacity: .80;
+}
+
+.center h1 {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 500%;
+  border: 1px solid black;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.right-button {
+  font-size: 20px;
+  font-weight: bold;
+  border-width: thick;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 20px;
+  border-color: black;
+}
+
+.light-btn {
+  background-color: aqua;
+  color: black;
+}
+
+.dark-btn {
+  background-color: black;
+  color: red;
+}
+
+iframe {
+   width: 100%;
+   height: 400px;
+}
+
+.home-button {
+  font-size: 20px;
+  font-weight: bold;
+  border-width: thick;
+  margin: 8px;
+  border-radius: 50%;
+  border-color: black;
+}
+
+.movie-scenes{
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+}
