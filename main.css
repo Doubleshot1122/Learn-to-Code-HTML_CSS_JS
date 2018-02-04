@@ -1,0 +1,89 @@
+/* NOTES:
+  Elements (no # or .)
+    h1
+    body
+  Classes (.)
+    .left
+    .center
+  IDs (#)
+    #poster
+ */
+
+
+body {
+  background-color: white;
+}
+
+/* sets up the side 2 columns of the site */
+aside {
+  text-align: center;
+  float: left;
+  width: 20%;
+}
+
+/* sets up the center column of the site */
+.center{
+  float: left;
+  text-align: center;
+}
+
+/* sets the size for the youtube window */
+iframe {
+   width: 100%;
+   height: 400px;
+}
+
+/* styling to make the buttons bigger, rounder, and spaced out */
+button {
+  font-size: 18px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px;
+  border-color: black;
+}
+
+/* positions and sizes the movie poster */
+#poster {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  opacity: .80;
+}
+
+/* creates and centers the title box with a transparent box */
+#title-box {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 500%;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.25);
+  /* rgba - (red, green, blue, opacity/transparence)
+     https://www.w3schools.com/css/css3_colors.asp
+  */
+}
+
+/* removes the bullets from the movie details list */
+.movieDetails {
+  list-style-type: none;
+}
+
+/* pushes the external and internal lists to the right to line the
+   bullets up with the text of the movie details */
+.otherLinks {
+  margin-left: 20px;
+}
+
+/* sets the alignment and size of the left side lists */
+.left li {
+  text-align: left;
+  font-size: 18px;
+}
+
+/* sets the size and spacing of the movie images at the bottom of the site  */
+.movie-scenes{
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+}

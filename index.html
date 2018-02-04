@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html> <!-- Tells the browser that this is a webpage -->
+  <head>
+    <title>The Last Jedi</title> <!-- sets the name of the tab -->
+    <!-- the link element connects our CSS file to this site -->
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <aside class="left"> <!-- left side of site start -->
+      <h1><u>Movie Details:</u></h1>
+      <ul class="movieDetails">
+        <li><b>Director: </b><a href="#" target="_blank">INSERT</a></li>
+        <li><b>Release date: </b>INSERT</li>
+        <li><b>Running time: </b>INSERT</li>
+        <li><b>Budget:	</b>INSERT</li>
+        <li><b>Box office:	</b>INSERT</li>
+    </ul>
+    <br>
+    <h1><u>External Links:</u></h1>
+    <ul class="otherLinks">
+      <li><a target="_blank" href="#">IMDB</a></li>
+      <li><a target="_blank" href="#">Wikipedia</a></li>
+      <li><a target="_blank" href="#">Rotten Tomatoes</a></li>
+    </ul>
+    <br>
+    <br>
+    <h1><u>Internal Links:</u></h1>
+    <ul class="otherLinks">
+      <li><a href="#trailer">Trailer</a></li>
+      <li><a href="#pictures">Pictures</a></li>
+    </ul>
+  </aside> <!-- left side of site ends -->
+      <div class="center"> <!-- center of site starts -->
+        <img id="poster" src="http://via.placeholder.com/800x800" alt="">
+        <h1 id="title-box">Movie Title</h1>
+        <br>
+        <br>
+        <!-- button is inside of the 'a' tag so that it can look like
+             a button but act like a link -->
+        <a href="#"><button>TOP</button></a>
+        <br>
+        <br>
+        <!-- replace the below iframe with the iframe from youtube
+              1. find a video
+              2. click on share
+              3. click on EMBED
+              4. click on COPY
+              5. replace iframe tags with copied link
+        -->
+        <iframe></iframe>
+        <br>
+        <br>
+        <!-- button is inside of the 'a' tag so that it can look like
+             a button but act like a link -->
+        <a href="#"><button>TOP</button></a>
+        <br>
+        <br>
+        <table> <!-- sets up the picture table -->
+                <!-- starts the first row, to make more rows copy and
+                    past from <tr> to </tr> and update the src for each new picture -->
+           <tr>
+              <td> <!-- starts the first cell -->
+                <img class="movie-scenes" src="http://via.placeholder.com/200x200" alt="">
+              </td>
+              <td> <!-- starts the second cell -->
+                <img class="movie-scenes" src="http://via.placeholder.com/200x200" alt="">
+              </td>
+              <td> <!-- starts the third cell -->
+                <img class="movie-scenes" src="http://via.placeholder.com/200x200" alt="">
+              </td>
+              <td> <!-- starts the forth cell -->
+                <img class="movie-scenes" src="http://via.placeholder.com/200x200" alt="">
+              </td>
+          </tr>
+        </table>
+      </div> <!-- center of site ends -->
+      <aside class="right"> <!-- right side of site starts -->
+        <h1><u>Right Side</u></h1>
+        <button>Button1</button>
+        <button>Button2</button>
+      </aside> <!-- right side of site ends -->
+  </body> <!--body -->
+</html> <!--html -->
