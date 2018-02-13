@@ -87,6 +87,6 @@ Click on each of the links below to learn about:
 
 ***
 
-Thanks for attending and please come back for the JavaScript class in 2 weeks.
+[Thanks for attending and please come back for the JavaScript class in 2 weeks.](https://github.com/Doubleshot1122/Learn-to-Code-HTML_CSS_JS-2)
 
 [Finished version of this site](http://the-last-jedi.surge.sh/)
